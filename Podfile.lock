@@ -1,0 +1,41 @@
+PODS:
+  - Alamofire (4.8.2)
+  - AlamofireImage (3.5.2):
+    - Alamofire (~> 4.8)
+  - NewPopMenu (2.1.2)
+  - PullToRefreshKit (0.8.8)
+  - SwiftyJSON (5.0.0)
+  - TableViewReloadAnimation (0.0.5)
+  - YoutubePlayer-in-WKWebView (0.3.1)
+
+DEPENDENCIES:
+  - Alamofire
+  - AlamofireImage
+  - NewPopMenu
+  - PullToRefreshKit
+  - SwiftyJSON
+  - TableViewReloadAnimation
+  - YoutubePlayer-in-WKWebView
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - AlamofireImage
+    - NewPopMenu
+    - PullToRefreshKit
+    - SwiftyJSON
+    - TableViewReloadAnimation
+    - YoutubePlayer-in-WKWebView
+
+SPEC CHECKSUMS:
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  AlamofireImage: 63cfe3baf1370be6c498149687cf6db3e3b00999
+  NewPopMenu: c6129e08e8192f6257ceb5f9a4357e1b59c6e2e7
+  PullToRefreshKit: 7cc53e720e69f135cffa1a57784dfb534f0222ab
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+  TableViewReloadAnimation: f3a4c4048efbc56331be98075f26a2e533a14c16
+  YoutubePlayer-in-WKWebView: 86f6b4c04797296071585b92724f3904d0273f12
+
+PODFILE CHECKSUM: 7ac8cc075a8a79a4da7389a6194cea6f82b67439
+
+COCOAPODS: 1.7.5

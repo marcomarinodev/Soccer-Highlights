@@ -1,0 +1,797 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		50385F54321F1BD34D817D42 /* Pods_Soccer_HighlightsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99CB35A279DDDB239B8E1168 /* Pods_Soccer_HighlightsTests.framework */; };
+		A80DA2B4231485950053C383 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80DA2B3231485950053C383 /* DetailViewController.swift */; };
+		A87D9361231814AA00EDEE2A /* ActionPopMenuManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87D9360231814AA00EDEE2A /* ActionPopMenuManager.swift */; };
+		A8859FEE2317E14600F55F99 /* HTMLStringEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8859FED2317E14600F55F99 /* HTMLStringEncoder.swift */; };
+		A8934729231404A10002E7F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8934728231404A10002E7F2 /* AppDelegate.swift */; };
+		A893472B231404A10002E7F2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A893472A231404A10002E7F2 /* ViewController.swift */; };
+		A893472E231404A10002E7F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A893472C231404A10002E7F2 /* Main.storyboard */; };
+		A8934730231404A20002E7F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A893472F231404A20002E7F2 /* Assets.xcassets */; };
+		A8934733231404A20002E7F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8934731231404A20002E7F2 /* LaunchScreen.storyboard */; };
+		A893473E231404A20002E7F2 /* Soccer_HighlightsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A893473D231404A20002E7F2 /* Soccer_HighlightsTests.swift */; };
+		A8934749231404A20002E7F2 /* Soccer_HighlightsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8934748231404A20002E7F2 /* Soccer_HighlightsUITests.swift */; };
+		A893475B2314098F0002E7F2 /* HighlightTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A893475A2314098F0002E7F2 /* HighlightTableViewCell.swift */; };
+		A893475D23140E980002E7F2 /* Highlight.swift in Sources */ = {isa = PBXBuildFile; fileRef = A893475C23140E980002E7F2 /* Highlight.swift */; };
+		A893D94123144D1C00E2660B /* QQVideoRefreshHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A893D94023144D1C00E2660B /* QQVideoRefreshHeader.swift */; };
+		A8A2D5B223187B1700B7B642 /* CustomActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A2D5B123187B1700B7B642 /* CustomActivityIndicator.swift */; };
+		A8CD6E3A2315706C007423F7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A8CD6E392315706C007423F7 /* GoogleService-Info.plist */; };
+		A8CD6E3C23158662007423F7 /* LeagueHighlights.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8CD6E3B23158662007423F7 /* LeagueHighlights.swift */; };
+		CD93935F372D80B7C03D3CB5 /* Pods_Soccer_Highlights.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 915A793F43DB2E401782C2CD /* Pods_Soccer_Highlights.framework */; };
+		E1E42BAB757D35FAE20162AD /* Pods_Soccer_HighlightsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFFD6DBC113E130C7D8BFA20 /* Pods_Soccer_HighlightsUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A893473A231404A20002E7F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A893471D231404A10002E7F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8934724231404A10002E7F2;
+			remoteInfo = "Soccer Highlights";
+		};
+		A8934745231404A20002E7F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A893471D231404A10002E7F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8934724231404A10002E7F2;
+			remoteInfo = "Soccer Highlights";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		15229BF317935B2B57B7232C /* Pods-Soccer HighlightsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Soccer HighlightsUITests.release.xcconfig"; path = "Target Support Files/Pods-Soccer HighlightsUITests/Pods-Soccer HighlightsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		583F98201A508754BB6A42AA /* Pods-Soccer Highlights.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Soccer Highlights.release.xcconfig"; path = "Target Support Files/Pods-Soccer Highlights/Pods-Soccer Highlights.release.xcconfig"; sourceTree = "<group>"; };
+		63FE2A1252EEDFA87CA01E45 /* Pods-Soccer HighlightsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Soccer HighlightsTests.release.xcconfig"; path = "Target Support Files/Pods-Soccer HighlightsTests/Pods-Soccer HighlightsTests.release.xcconfig"; sourceTree = "<group>"; };
+		6BD5AD684D030F5E37AA402A /* Pods-Soccer Highlights.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Soccer Highlights.debug.xcconfig"; path = "Target Support Files/Pods-Soccer Highlights/Pods-Soccer Highlights.debug.xcconfig"; sourceTree = "<group>"; };
+		6E0FAC771859C3F5240D5327 /* Pods-Soccer HighlightsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Soccer HighlightsUITests.debug.xcconfig"; path = "Target Support Files/Pods-Soccer HighlightsUITests/Pods-Soccer HighlightsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7132BC5E432DCE44370FD8F7 /* Pods-Soccer HighlightsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Soccer HighlightsTests.debug.xcconfig"; path = "Target Support Files/Pods-Soccer HighlightsTests/Pods-Soccer HighlightsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		915A793F43DB2E401782C2CD /* Pods_Soccer_Highlights.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Soccer_Highlights.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		99CB35A279DDDB239B8E1168 /* Pods_Soccer_HighlightsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Soccer_HighlightsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A80DA2B3231485950053C383 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		A87D9360231814AA00EDEE2A /* ActionPopMenuManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionPopMenuManager.swift; sourceTree = "<group>"; };
+		A8859FED2317E14600F55F99 /* HTMLStringEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTMLStringEncoder.swift; sourceTree = "<group>"; };
+		A8934725231404A10002E7F2 /* Soccer Highlights.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Soccer Highlights.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8934728231404A10002E7F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A893472A231404A10002E7F2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A893472D231404A10002E7F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A893472F231404A20002E7F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A8934732231404A20002E7F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A8934734231404A20002E7F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8934739231404A20002E7F2 /* Soccer HighlightsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Soccer HighlightsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A893473D231404A20002E7F2 /* Soccer_HighlightsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Soccer_HighlightsTests.swift; sourceTree = "<group>"; };
+		A893473F231404A20002E7F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8934744231404A20002E7F2 /* Soccer HighlightsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Soccer HighlightsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8934748231404A20002E7F2 /* Soccer_HighlightsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Soccer_HighlightsUITests.swift; sourceTree = "<group>"; };
+		A893474A231404A20002E7F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A893475A2314098F0002E7F2 /* HighlightTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighlightTableViewCell.swift; sourceTree = "<group>"; };
+		A893475C23140E980002E7F2 /* Highlight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Highlight.swift; sourceTree = "<group>"; };
+		A893D94023144D1C00E2660B /* QQVideoRefreshHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QQVideoRefreshHeader.swift; sourceTree = "<group>"; };
+		A8A2D5B123187B1700B7B642 /* CustomActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomActivityIndicator.swift; sourceTree = "<group>"; };
+		A8CD6E392315706C007423F7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A8CD6E3B23158662007423F7 /* LeagueHighlights.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeagueHighlights.swift; sourceTree = "<group>"; };
+		FFFD6DBC113E130C7D8BFA20 /* Pods_Soccer_HighlightsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Soccer_HighlightsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A8934722231404A10002E7F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD93935F372D80B7C03D3CB5 /* Pods_Soccer_Highlights.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8934736231404A20002E7F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50385F54321F1BD34D817D42 /* Pods_Soccer_HighlightsTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8934741231404A20002E7F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1E42BAB757D35FAE20162AD /* Pods_Soccer_HighlightsUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11BE7CBCE5632F9E1A5D04C6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6BD5AD684D030F5E37AA402A /* Pods-Soccer Highlights.debug.xcconfig */,
+				583F98201A508754BB6A42AA /* Pods-Soccer Highlights.release.xcconfig */,
+				7132BC5E432DCE44370FD8F7 /* Pods-Soccer HighlightsTests.debug.xcconfig */,
+				63FE2A1252EEDFA87CA01E45 /* Pods-Soccer HighlightsTests.release.xcconfig */,
+				6E0FAC771859C3F5240D5327 /* Pods-Soccer HighlightsUITests.debug.xcconfig */,
+				15229BF317935B2B57B7232C /* Pods-Soccer HighlightsUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4AFBF91D2DD5F09466450565 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				915A793F43DB2E401782C2CD /* Pods_Soccer_Highlights.framework */,
+				99CB35A279DDDB239B8E1168 /* Pods_Soccer_HighlightsTests.framework */,
+				FFFD6DBC113E130C7D8BFA20 /* Pods_Soccer_HighlightsUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A8859FEC2317E12100F55F99 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A8859FED2317E14600F55F99 /* HTMLStringEncoder.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A893471C231404A10002E7F2 = {
+			isa = PBXGroup;
+			children = (
+				A8934727231404A10002E7F2 /* Soccer Highlights */,
+				A893473C231404A20002E7F2 /* Soccer HighlightsTests */,
+				A8934747231404A20002E7F2 /* Soccer HighlightsUITests */,
+				A8934726231404A10002E7F2 /* Products */,
+				11BE7CBCE5632F9E1A5D04C6 /* Pods */,
+				4AFBF91D2DD5F09466450565 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A8934726231404A10002E7F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A8934725231404A10002E7F2 /* Soccer Highlights.app */,
+				A8934739231404A20002E7F2 /* Soccer HighlightsTests.xctest */,
+				A8934744231404A20002E7F2 /* Soccer HighlightsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A8934727231404A10002E7F2 /* Soccer Highlights */ = {
+			isa = PBXGroup;
+			children = (
+				A8859FEC2317E12100F55F99 /* Extensions */,
+				A8CD6E392315706C007423F7 /* GoogleService-Info.plist */,
+				A8934734231404A20002E7F2 /* Info.plist */,
+				A89347582314086A0002E7F2 /* Controller */,
+				A8934757231408650002E7F2 /* View */,
+				A89347562314084E0002E7F2 /* Model */,
+			);
+			path = "Soccer Highlights";
+			sourceTree = "<group>";
+		};
+		A893473C231404A20002E7F2 /* Soccer HighlightsTests */ = {
+			isa = PBXGroup;
+			children = (
+				A893473D231404A20002E7F2 /* Soccer_HighlightsTests.swift */,
+				A893473F231404A20002E7F2 /* Info.plist */,
+			);
+			path = "Soccer HighlightsTests";
+			sourceTree = "<group>";
+		};
+		A8934747231404A20002E7F2 /* Soccer HighlightsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A8934748231404A20002E7F2 /* Soccer_HighlightsUITests.swift */,
+				A893474A231404A20002E7F2 /* Info.plist */,
+			);
+			path = "Soccer HighlightsUITests";
+			sourceTree = "<group>";
+		};
+		A89347562314084E0002E7F2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A893475C23140E980002E7F2 /* Highlight.swift */,
+				A8CD6E3B23158662007423F7 /* LeagueHighlights.swift */,
+				A87D9360231814AA00EDEE2A /* ActionPopMenuManager.swift */,
+				A8A2D5B123187B1700B7B642 /* CustomActivityIndicator.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A8934757231408650002E7F2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A893475A2314098F0002E7F2 /* HighlightTableViewCell.swift */,
+				A893472C231404A10002E7F2 /* Main.storyboard */,
+				A893472F231404A20002E7F2 /* Assets.xcassets */,
+				A8934731231404A20002E7F2 /* LaunchScreen.storyboard */,
+				A893D94023144D1C00E2660B /* QQVideoRefreshHeader.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A89347582314086A0002E7F2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A8934728231404A10002E7F2 /* AppDelegate.swift */,
+				A80DA2B3231485950053C383 /* DetailViewController.swift */,
+				A893472A231404A10002E7F2 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A8934724231404A10002E7F2 /* Soccer Highlights */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A893474D231404A20002E7F2 /* Build configuration list for PBXNativeTarget "Soccer Highlights" */;
+			buildPhases = (
+				EF7603550144AFD62A9D1726 /* [CP] Check Pods Manifest.lock */,
+				A8934721231404A10002E7F2 /* Sources */,
+				A8934722231404A10002E7F2 /* Frameworks */,
+				A8934723231404A10002E7F2 /* Resources */,
+				75A2B8372B55642220D6F964 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Soccer Highlights";
+			productName = "Soccer Highlights";
+			productReference = A8934725231404A10002E7F2 /* Soccer Highlights.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A8934738231404A20002E7F2 /* Soccer HighlightsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8934750231404A20002E7F2 /* Build configuration list for PBXNativeTarget "Soccer HighlightsTests" */;
+			buildPhases = (
+				5C50BE185DFE94CD33E0746C /* [CP] Check Pods Manifest.lock */,
+				A8934735231404A20002E7F2 /* Sources */,
+				A8934736231404A20002E7F2 /* Frameworks */,
+				A8934737231404A20002E7F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A893473B231404A20002E7F2 /* PBXTargetDependency */,
+			);
+			name = "Soccer HighlightsTests";
+			productName = "Soccer HighlightsTests";
+			productReference = A8934739231404A20002E7F2 /* Soccer HighlightsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A8934743231404A20002E7F2 /* Soccer HighlightsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8934753231404A20002E7F2 /* Build configuration list for PBXNativeTarget "Soccer HighlightsUITests" */;
+			buildPhases = (
+				C0E79F9ABE1C555E37301279 /* [CP] Check Pods Manifest.lock */,
+				A8934740231404A20002E7F2 /* Sources */,
+				A8934741231404A20002E7F2 /* Frameworks */,
+				A8934742231404A20002E7F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A8934746231404A20002E7F2 /* PBXTargetDependency */,
+			);
+			name = "Soccer HighlightsUITests";
+			productName = "Soccer HighlightsUITests";
+			productReference = A8934744231404A20002E7F2 /* Soccer HighlightsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A893471D231404A10002E7F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Marco Marinò";
+				TargetAttributes = {
+					A8934724231404A10002E7F2 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					A8934738231404A20002E7F2 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = A8934724231404A10002E7F2;
+					};
+					A8934743231404A20002E7F2 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = A8934724231404A10002E7F2;
+					};
+				};
+			};
+			buildConfigurationList = A8934720231404A10002E7F2 /* Build configuration list for PBXProject "Soccer Highlights" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A893471C231404A10002E7F2;
+			productRefGroup = A8934726231404A10002E7F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A8934724231404A10002E7F2 /* Soccer Highlights */,
+				A8934738231404A20002E7F2 /* Soccer HighlightsTests */,
+				A8934743231404A20002E7F2 /* Soccer HighlightsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A8934723231404A10002E7F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8934733231404A20002E7F2 /* LaunchScreen.storyboard in Resources */,
+				A8CD6E3A2315706C007423F7 /* GoogleService-Info.plist in Resources */,
+				A8934730231404A20002E7F2 /* Assets.xcassets in Resources */,
+				A893472E231404A10002E7F2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8934737231404A20002E7F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8934742231404A20002E7F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5C50BE185DFE94CD33E0746C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Soccer HighlightsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		75A2B8372B55642220D6F964 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Soccer Highlights/Pods-Soccer Highlights-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Soccer Highlights/Pods-Soccer Highlights-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Soccer Highlights/Pods-Soccer Highlights-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0E79F9ABE1C555E37301279 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Soccer HighlightsUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF7603550144AFD62A9D1726 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Soccer Highlights-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A8934721231404A10002E7F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A893472B231404A10002E7F2 /* ViewController.swift in Sources */,
+				A893475B2314098F0002E7F2 /* HighlightTableViewCell.swift in Sources */,
+				A87D9361231814AA00EDEE2A /* ActionPopMenuManager.swift in Sources */,
+				A8A2D5B223187B1700B7B642 /* CustomActivityIndicator.swift in Sources */,
+				A893475D23140E980002E7F2 /* Highlight.swift in Sources */,
+				A80DA2B4231485950053C383 /* DetailViewController.swift in Sources */,
+				A8859FEE2317E14600F55F99 /* HTMLStringEncoder.swift in Sources */,
+				A8934729231404A10002E7F2 /* AppDelegate.swift in Sources */,
+				A8CD6E3C23158662007423F7 /* LeagueHighlights.swift in Sources */,
+				A893D94123144D1C00E2660B /* QQVideoRefreshHeader.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8934735231404A20002E7F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A893473E231404A20002E7F2 /* Soccer_HighlightsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8934740231404A20002E7F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8934749231404A20002E7F2 /* Soccer_HighlightsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A893473B231404A20002E7F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A8934724231404A10002E7F2 /* Soccer Highlights */;
+			targetProxy = A893473A231404A20002E7F2 /* PBXContainerItemProxy */;
+		};
+		A8934746231404A20002E7F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A8934724231404A10002E7F2 /* Soccer Highlights */;
+			targetProxy = A8934745231404A20002E7F2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A893472C231404A10002E7F2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A893472D231404A10002E7F2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A8934731231404A20002E7F2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8934732231404A20002E7F2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A893474B231404A20002E7F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A893474C231404A20002E7F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A893474E231404A20002E7F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BD5AD684D030F5E37AA402A /* Pods-Soccer Highlights.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KYC926R2SM;
+				INFOPLIST_FILE = "Soccer Highlights/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Marco-Marino-.Alamofire-Tutorial";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A893474F231404A20002E7F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 583F98201A508754BB6A42AA /* Pods-Soccer Highlights.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KYC926R2SM;
+				INFOPLIST_FILE = "Soccer Highlights/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Marco-Marino-.Alamofire-Tutorial";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A8934751231404A20002E7F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7132BC5E432DCE44370FD8F7 /* Pods-Soccer HighlightsTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KYC926R2SM;
+				INFOPLIST_FILE = "Soccer HighlightsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Marco-Marino-.Soccer-HighlightsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Soccer Highlights.app/Soccer Highlights";
+			};
+			name = Debug;
+		};
+		A8934752231404A20002E7F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63FE2A1252EEDFA87CA01E45 /* Pods-Soccer HighlightsTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KYC926R2SM;
+				INFOPLIST_FILE = "Soccer HighlightsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Marco-Marino-.Soccer-HighlightsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Soccer Highlights.app/Soccer Highlights";
+			};
+			name = Release;
+		};
+		A8934754231404A20002E7F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E0FAC771859C3F5240D5327 /* Pods-Soccer HighlightsUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KYC926R2SM;
+				INFOPLIST_FILE = "Soccer HighlightsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Marco-Marino-.Soccer-HighlightsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Soccer Highlights";
+			};
+			name = Debug;
+		};
+		A8934755231404A20002E7F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15229BF317935B2B57B7232C /* Pods-Soccer HighlightsUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KYC926R2SM;
+				INFOPLIST_FILE = "Soccer HighlightsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Marco-Marino-.Soccer-HighlightsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Soccer Highlights";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A8934720231404A10002E7F2 /* Build configuration list for PBXProject "Soccer Highlights" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A893474B231404A20002E7F2 /* Debug */,
+				A893474C231404A20002E7F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A893474D231404A20002E7F2 /* Build configuration list for PBXNativeTarget "Soccer Highlights" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A893474E231404A20002E7F2 /* Debug */,
+				A893474F231404A20002E7F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8934750231404A20002E7F2 /* Build configuration list for PBXNativeTarget "Soccer HighlightsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8934751231404A20002E7F2 /* Debug */,
+				A8934752231404A20002E7F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8934753231404A20002E7F2 /* Build configuration list for PBXNativeTarget "Soccer HighlightsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8934754231404A20002E7F2 /* Debug */,
+				A8934755231404A20002E7F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A893471D231404A10002E7F2 /* Project object */;
+}
